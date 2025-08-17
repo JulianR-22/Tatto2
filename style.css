@@ -22,8 +22,8 @@ body {
 .titulo-tatuaje,
 .ESTUDIO {
   font-family: 'TattooInk', sans-serif;
-  font-size: 48px;
-  letter-spacing: 2px;
+  font-size: 30px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
@@ -250,6 +250,7 @@ body {
     padding: 0 10px;
   }
 }
+
 
 
 
