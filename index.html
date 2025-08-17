@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="sticky-header">
+            <img src="img/cooltext488705979830169.png" height="60px" width="210px">
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        <nav class="menu-content" id="menuContent">
+            <ul>
+            <li><a href="#">Inicio</a></li>
+             <li><a href="estudio.html">El Estudio</a></li>
+            <li><a href="trabajo.html">Trabajos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+            
+            </div>
+
+
+
+
+
+            <script>
+  function toggleMenu() {
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.getElementById('menuContent');
+    toggle.classList.toggle('active');
+    menu.classList.toggle('show');
+  }
+</script>
+</body>
+</html>
