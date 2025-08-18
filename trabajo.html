@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Galeria</title>
+</head>
+<body>
+    <div class="hero-trabajo">
+        <div class="sticky-header">
+            <img src="img/cooltext488705979830169.png" height="60px" width="210px">
+            
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <nav class="menu-content" id="menuContent">
+            <ul>
+            <li><a href="index.html">Inicio</a></li>
+             <li><a href="estudio.html">El Estudio</a></li>
+            <li><a href="#">Trabajos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+            
+            <center>
+                <h1 class="titulo-tatuaje-trabajo" >GALERIA DE TATUAJES</h1>
+            </center>
+
+    </div><center>
+<div class="hero2-trabajo">
+    <h1 class="ESTUDIO-TRABAJO" >TATUAJES REALIZADOS MENDEZ TATTO</h1>
+    <br><br>
+
+        <div class="galeria">
+<img src="img/trabajos-realizados/tatto1.jpg" onclick="abrirLightbox(0)">
+<img src="img/trabajos-realizados/tatto2.jpg" onclick="abrirLightbox(1)">
+<img src="img/trabajos-realizados/tatto3.jpg" onclick="abrirLightbox(2)">
+<img src="img/trabajos-realizados/tatto4.jpg" onclick="abrirLightbox(3)">
+<img src="img/trabajos-realizados/tatto6.jpg" onclick="abrirLightbox(4)">
+<img src="img/trabajos-realizados/tatto7.jpg" onclick="abrirLightbox(5)">
+<img src="img/trabajos-realizados/tatto8.jpg" onclick="abrirLightbox(6)">
+<img src="img/trabajos-realizados/tatto9.jpg" onclick="abrirLightbox(7)">
+<img src="img/trabajos-realizados/tatto10.jpg" onclick="abrirLightbox(8)">
+<img src="img/trabajos-realizados/tatto1.jpg" onclick="abrirLightbox(9)">
+<img src="img/trabajos-realizados/tatto2.jpg" onclick="abrirLightbox(10)">
+<img src="img/trabajos-realizados/tatto3.jpg" onclick="abrirLightbox(11)">
+<img src="img/trabajos-realizados/tatto4.jpg" onclick="abrirLightbox(12)">
+<img src="img/trabajos-realizados/tatto6.jpg" onclick="abrirLightbox(13)">
+<img src="img/trabajos-realizados/tatto7.jpg" onclick="abrirLightbox(14)">
+<img src="img/trabajos-realizados/tatto8.jpg" onclick="abrirLightbox(15)">
+<img src="img/trabajos-realizados/tatto9.jpg" onclick="abrirLightbox(16)">
+<img src="img/trabajos-realizados/tatto10.jpg" onclick="abrirLightbox(17)">
+
+</div>
+
+<div id="lightbox" class="lightbox">
+  <span class="cerrar" onclick="cerrarLightbox()">✖</span>
+  <button class="flecha izquierda" onclick="cambiarImagen(-1)">❮</button>
+  <img id="imagen-ampliada" src="">
+  <button class="flecha derecha" onclick="cambiarImagen(1)">❯</button>
+</div>
+
+
+
+</center>
+
+
+
+<br><br><br><br>
+
+
+
+            <center>
+    <div class="table-container2">
+    <table>
+        <tr><td class="ESTUDIO2" style="width: 50px;">Mendez Tatto</td>
+            <td style="width: 20px;"></td>
+            <td class="ESTUDIO2" style="width: 420px;">Datos de contacto</td>
+            
+
+            </tr>
+        
+        <tr><td style="width: 350px;">Mendez Tattoo es un estudio artístico de tatuajes y piercing en Mijas Costa, Málaga. Miembros de la Unión Nacional de Tatutadores y Anilladores Profesionales (UNTAP) desde hace 14 años.</td>
+            <td></td>
+            <td>
+                📌Camino Viejo de Coín, 14. 29651. Mijas Costa. Málaga. <br>
+                📞 952 476 811 <br>
+                📱 646 835 944 <br>
+                📧 Mendez@mendeztattoo.com
+    
+            </td>
+            <tr>
+                <td style="height: 30px;"></td>
+                <td></td>
+            </tr>
+            
+        </tr>
+        <tr><td class="ESTUDIO2" style="width: 100px;">Apartados web</td>
+            <td></td>
+            <td class="ESTUDIO2">siguenos en</td></tr>
+            <tr>
+<td><a href="index.html">Inicio</a><br><a href="estudio.html"> El Estudio </a><br> <a href="#">Trabajos</a> <br>Cuidados tattoo <br> Cuidados piercing <br>Noticias <br>Libro de visitas <br>Contacto</td>
+            <td></td>
+<td style="width: 10px;"><img src="img/facebook.png" height="50px" width="50px" style="float: inline-start;">
+            &nbsp
+            <img src="img/insta-logo.png" height="50px" width="50px" ></td>
+            
+</tr>
+
+    </table>
+        <p style="color: gray;">&copy; 2025 Mendez Tatto. Todos los derechos reservados.</p>
+    </center>
+    </div>
+
+
+
+
+
+            <script>
+  function toggleMenu() {
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.getElementById('menuContent');
+    toggle.classList.toggle('active');
+    menu.classList.toggle('show');
+  }
+</script>
+
+<script>
+        const imagenes = [
+  "img/trabajos-realizados/tatto1.jpg",
+  "img/trabajos-realizados/tatto2.jpg",
+  "img/trabajos-realizados/tatto3.jpg",
+  "img/trabajos-realizados/tatto4.jpg",
+  "img/trabajos-realizados/tatto6.jpg",
+  "img/trabajos-realizados/tatto7.jpg",
+  "img/trabajos-realizados/tatto8.jpg",
+  "img/trabajos-realizados/tatto9.jpg",
+  "img/trabajos-realizados/tatto10.jpg",
+  "img/trabajos-realizados/tatto1.jpg",
+  "img/trabajos-realizados/tatto2.jpg",
+  "img/trabajos-realizados/tatto3.jpg",
+  "img/trabajos-realizados/tatto4.jpg",
+  "img/trabajos-realizados/tatto6.jpg",
+  "img/trabajos-realizados/tatto7.jpg",
+  "img/trabajos-realizados/tatto8.jpg",
+  "img/trabajos-realizados/tatto9.jpg",
+  "img/trabajos-realizados/tatto10.jpg"
+];
+
+
+  let indiceActual = 0;
+
+  function abrirLightbox(indice) {
+    indiceActual = indice;
+    document.getElementById("imagen-ampliada").src = imagenes[indice];
+    document.getElementById("lightbox").style.display = "flex";
+  }
+
+  function cerrarLightbox() {
+    document.getElementById("lightbox").style.display = "none";
+  }
+
+  function cambiarImagen(direccion) {
+    indiceActual += direccion;
+    if (indiceActual < 0) indiceActual = imagenes.length - 1;
+    if (indiceActual >= imagenes.length) indiceActual = 0;
+    document.getElementById("imagen-ampliada").src = imagenes[indiceActual];
+  }
+</script>
+
+
+</body>
+</html>
